@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{69FBA2D4-BB54-4D24-B81C-322F03B86156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1639810C-A4EA-43DD-A44F-CA02D52D6E49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleArrayTest", "test\ConsoleArrayTest\ConsoleArrayTest.csproj", "{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RamCore", "src\RamCore\RamCore.csproj", "{C133292E-1576-46D2-AE51-01C395810CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEDD780E-AAD2-49B8-A1B7-AF9D3F5A4B5E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C133292E-1576-46D2-AE51-01C395810CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C133292E-1576-46D2-AE51-01C395810CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C133292E-1576-46D2-AE51-01C395810CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C133292E-1576-46D2-AE51-01C395810CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE358484-F7AC-47D9-ADCE-AC14ECA35B2E} = {69FBA2D4-BB54-4D24-B81C-322F03B86156}
+		{C133292E-1576-46D2-AE51-01C395810CB9} = {1639810C-A4EA-43DD-A44F-CA02D52D6E49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04554BAA-764A-4628-9091-3A7F91F3563E}
+	EndGlobalSection
+EndGlobal
